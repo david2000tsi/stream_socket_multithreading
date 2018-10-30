@@ -1,5 +1,7 @@
 <?php
 
+namespace StreamSocket;
+
 class SocketServer
 {
 	private $socket;
