@@ -1,5 +1,9 @@
 <?php
 
+namespace StreamSocket;
+
+use Thread;
+
 abstract class ClientConnectionHandle extends Thread
 {
 	private $clientId;
